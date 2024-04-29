@@ -2,7 +2,7 @@ homeassistant: true
 permit_join: false
 mqtt:
   base_topic: zigbee2mqtt
-  server: mqtt://192.168.86.21:1883
+  server: mqtt://192.168.86.231:1883
 serial:
   port: >-
     /dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_d00351860051e811a00701f8c2460985-if00-port0
@@ -12,7 +12,7 @@ serial:
   transmit_power: 20
 frontend:
   port: 8081
-  host: 192.168.86.21
+  host: 192.168.86.231
 advanced:
   network_key: GENERATE
   pan_id: GENERATE
