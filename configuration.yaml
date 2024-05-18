@@ -5,7 +5,8 @@ mqtt:
   server: mqtt://192.168.86.231:1883
 serial:
   port: >-
-    /dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_d00351860051e811a00701f8c2460985-if00-port0
+    /dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_d00351860051e811a00701f8c2460985-if00-port0  # Smlight-SLZB-06 Device
+    /dev/serial/by-id/usb-Nabu_Casa_SkyConnect_v1.0_422fb2a8588dec11b4576ce883c5466d-if00-port0   # Nabu Casa Zigbee Device
   adapter: zstack
   baudrate: 115200
   disable_led: false
